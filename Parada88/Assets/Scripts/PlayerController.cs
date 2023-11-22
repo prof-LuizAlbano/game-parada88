@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(CharacterController))]
 
-public class PlayerController : MonoBehaviour
+public class PlayerControllerOlder : MonoBehaviour
 {
 	[SerializeField]
 	private InputActionReference movementControl;
