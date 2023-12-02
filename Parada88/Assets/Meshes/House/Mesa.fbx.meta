@@ -3,7 +3,37 @@ guid: b0b6d597906d54e4c97b27c09eda6467
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 14029f896bdefb24c826c314f9dde2e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 96d836fc603690547878f736dbd2a572, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Fabric_Tartan_001_basecolor
+    second: {fileID: 2800000, guid: 689dbed7edaa24a4c8b5a667acc4c5b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Fabric_Tartan_001_roughness
+    second: {fileID: 2800000, guid: aa5d797bcf9add646b083acc625220fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood_021_basecolor
+    second: {fileID: 2800000, guid: 6530e7debcd88c14884e83d605b481b6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood_021_roughness
+    second: {fileID: 2800000, guid: 553ce2751d341da4d9fafef89df5f4b8, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -37,7 +67,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1

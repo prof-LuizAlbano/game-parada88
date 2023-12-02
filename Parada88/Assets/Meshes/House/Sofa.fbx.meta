@@ -3,7 +3,42 @@ guid: 7cad847b6951fe54c83f38c899bdf0e3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 8704f4d7d1afb4941b029013c2bcff75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 9e3e500a7364a3a4faa265b35641d367, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 82e2b0a58c0cedb49806a9d6dd376d46, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Fabric_015_COLOR
+    second: {fileID: 2800000, guid: 0c69f744553c2884fb82ee3d704515e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Fabric_015_ROUGH
+    second: {fileID: 2800000, guid: 5d46ed7a20d061c42a252bbade2f3340, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Fabric_Lace_008_basecolor
+    second: {fileID: 2800000, guid: eac43f781f9ca964b92f14bc211c5959, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Fabric_Lace_008_roughness
+    second: {fileID: 2800000, guid: 7df660fc38bb9c747841a2e2d66b045a, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -37,7 +72,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1

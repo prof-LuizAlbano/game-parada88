@@ -1,9 +1,49 @@
 fileFormatVersion: 2
-guid: e8ee8a6395bcd19489eee0fb4cc5ef32
+guid: 73b3a0d09f477974199a9407f07cde6a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 67364fda4f6fcab4d8fa490c67c87a48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: c8d382b6ec32f044699d0cb69b69c9eb, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Plate_047_basecolor
+    second: {fileID: 2800000, guid: bf7fad20e5a8d36498fdd69df6d41e1d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Plate_047_metallic
+    second: {fileID: 2800000, guid: a4b5dadc41548a94092d5b5803f9a839, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Plate_047_roughness
+    second: {fileID: 2800000, guid: 94bb6385e1450d446b476fc77bb31df2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_scratched_009_basecolor
+    second: {fileID: 2800000, guid: cde423ca2fa23314fa203afbf53a6242, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_scratched_009_metallic
+    second: {fileID: 2800000, guid: d80a166c6bd8b814bad40b08755d466e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_scratched_009_roughness
+    second: {fileID: 2800000, guid: 95c2d169277463d4183df6249aaf6aec, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -37,7 +77,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1

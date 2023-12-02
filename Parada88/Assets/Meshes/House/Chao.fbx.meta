@@ -3,7 +3,27 @@ guid: 18cf99d6ea6c21a47ad5318bb93623fc
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 5ad17b62f5f336e44862227cecdc3479, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Plate_045_basecolor
+    second: {fileID: 2800000, guid: c36dc5ab3eacc05458f9c30d1256a2be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Plate_045_metallic
+    second: {fileID: 2800000, guid: 0e646add52108d948990180d5709c66b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Plate_045_roughness
+    second: {fileID: 2800000, guid: a3eea9d8fee493f4db0f0c380701bfec, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -37,7 +57,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1

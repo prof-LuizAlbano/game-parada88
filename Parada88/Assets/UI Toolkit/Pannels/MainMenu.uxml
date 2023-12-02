@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Pannels/MainMenuStyleSheet.uss?fileID=7433441132597879392&amp;guid=b282b77f3aafd484d8d2b37719eff6f4&amp;type=3#MainMenuStyleSheet" />
+    <ui:VisualElement name="Background" class="blurbackground" style="flex-grow: 1; flex-direction: column; background-image: url(&apos;project://database/Assets/UI%20Toolkit/Images/SurfaceBackground.png?fileID=2800000&amp;guid=96688bfb9bfd62f44b358e195b65211e&amp;type=3#SurfaceBackground&apos;); background-color: rgba(56, 56, 56, 0.85); -unity-background-image-tint-color: rgba(82, 89, 33, 0.61); opacity: 1; visibility: visible; overflow: visible;">
+        <ui:VisualElement name="LeftColumn" style="flex-grow: 4; background-color: rgba(56, 56, 56, 0); height: 245px;">
+            <ui:VisualElement name="Logo" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/UI%20Toolkit/Images/logo.png?fileID=2800000&amp;guid=b3e9006abab9cc4418cdc4c337f5ba2b&amp;type=3#logo&apos;); -unity-background-scale-mode: scale-to-fit;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="RightColumn" style="flex-grow: 2; flex-direction: row; align-items: center; justify-content: space-between; padding-right: 120px; padding-left: 120px;">
+            <ui:Button text="Iniciar" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Start" class="button" style="transform-origin: right 120%;" />
+            <ui:Button text="Sair" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Exit" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

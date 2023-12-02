@@ -3,7 +3,57 @@ guid: c5e93498fdab02f4f835fa89f99e4b80
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: d6541ab8e01b7c24f9a165f1c6b20100, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: a8e3921e56d3c8045bcea20c352fc696, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 8cbc8eb2b336d954a921ff7fec2477af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.004
+    second: {fileID: 2100000, guid: d4b5da64f8d86bb45b549d6b322b91e8, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Fabric_015_COLOR
+    second: {fileID: 2800000, guid: 8c4ab63decd914a438de0f63f401efe4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Fabric_015_ROUGH
+    second: {fileID: 2800000, guid: 579dd29114f186b46bf84a2290d9f838, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Fabric_Lace_008_basecolor
+    second: {fileID: 2800000, guid: e9cc263ed7981794e9713853655865ec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Fabric_Lace_008_roughness
+    second: {fileID: 2800000, guid: fcbcb46382b2f9943ac347225a3f2c28, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood_021_basecolor
+    second: {fileID: 2800000, guid: 9875b2af09a918f488612b6cab92257e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood_021_roughness
+    second: {fileID: 2800000, guid: bfb707025baa851499c6ecc33da9c437, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -37,7 +87,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1

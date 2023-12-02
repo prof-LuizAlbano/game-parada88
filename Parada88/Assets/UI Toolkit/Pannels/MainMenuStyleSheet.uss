@@ -1,0 +1,28 @@
+.button {
+    font-size: 50px;
+    -unity-font-style: bold;
+    background-color: rgb(17, 19, 14);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-left-color: rgba(56, 56, 56, 0);
+    border-right-color: rgba(56, 56, 56, 0);
+    border-top-color: rgba(56, 56, 56, 0);
+    border-bottom-color: rgba(56, 56, 56, 0);
+    color: rgb(142, 112, 112);
+    margin-right: 20px;
+    padding-right: 50px;
+    padding-left: 51px;
+    -unity-font: initial;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgba(144, 28, 28, 0);
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.button:hover {
+    background-color: rgb(72, 6, 6);
+}
+
+.button:active {
+    scale: 1.01 1.01;
+    transform-origin: right bottom;
+}

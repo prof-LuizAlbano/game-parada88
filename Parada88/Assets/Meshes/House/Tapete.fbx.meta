@@ -1,9 +1,24 @@
 fileFormatVersion: 2
-guid: ca587ef650dde02408aa1e2aac69886c
+guid: 3587c5d163b890b41ae4a3b7a0dbdeb0
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 7419037ab66cf614898c12d9138dae37, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Substance_Graph_BaseColor
+    second: {fileID: 2800000, guid: 8fb33895b111c5e43832883464b2a4ac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Substance_Graph_Roughness
+    second: {fileID: 2800000, guid: 7fe9ced5783541a4b9a9a05812e5d8ed, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -37,7 +52,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1

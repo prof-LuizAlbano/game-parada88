@@ -1,9 +1,44 @@
 fileFormatVersion: 2
-guid: 97d34cd388882994d912dc35a6edb061
+guid: 91307b1ad841c37468b744e96ab94405
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: ab750aec9594edc49bba0af7e9b4c680, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 041aec261cb7ea04499c92b714324ff0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 533ff68ef10a25040944ba1473d8f5f2, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_scratched_009_basecolor
+    second: {fileID: 2800000, guid: 1e47623e28a06af40b63bfaf579e5347, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_scratched_009_metallic
+    second: {fileID: 2800000, guid: 84aec930c8094034190a0e03255c3474, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plastic_001_COLOR
+    second: {fileID: 2800000, guid: 85373fe258a24b445b7dbf4a22558616, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Plastic_001_ROUGH
+    second: {fileID: 2800000, guid: 3fe2eb3ef6bb4f34d9bba09aa3d5130e, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

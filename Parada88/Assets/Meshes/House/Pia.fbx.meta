@@ -1,9 +1,64 @@
 fileFormatVersion: 2
-guid: d296d0a02fd20ca478fc36377e20dcd5
+guid: 9477ad8bfaba60b498d41af696defe84
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 70859d85f0e5e954497b88762f679061, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 82eecd7e2c024a04d9de31a57177dc07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: a86aaf9d9e2fbbc4cb46f9e9978c048f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 694ac1ca53942264da559443bfe00948, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Marble_Gray_002_basecolor
+    second: {fileID: 2800000, guid: 389b183f8c418ff4192edee33a4774e1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Marble_Gray_002_roughness
+    second: {fileID: 2800000, guid: 91ffe37e78f77134b8c0af2624ce1ef6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Damaged_001_basecolor
+    second: {fileID: 2800000, guid: 5e8468ed7ad57c149b81d1e8c8d26961, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Damaged_001_metallic
+    second: {fileID: 2800000, guid: 4fc5bcfdb693d744180ce19f0b218328, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Damaged_001_roughness
+    second: {fileID: 2800000, guid: 2f2d0cc8935040b43a22c0fa9ae049e7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_scratched_009_basecolor
+    second: {fileID: 2800000, guid: 3698cdeacd7d4b446826d8da315db467, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_scratched_009_roughness
+    second: {fileID: 2800000, guid: dafa1c2861c744b44aa8148c6ab7638d, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -37,7 +92,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 1

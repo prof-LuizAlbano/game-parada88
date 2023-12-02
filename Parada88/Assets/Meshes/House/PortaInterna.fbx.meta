@@ -3,7 +3,57 @@ guid: dde694c313bb4024bb5407153d2b300a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 1246b4b14b93c764eb92a0d40c2db846, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 488761c89567edf478130f9128e9351d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.006
+    second: {fileID: 2100000, guid: 488761c89567edf478130f9128e9351d, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Key_Hole_001_basecolor
+    second: {fileID: 2800000, guid: a853670dfdf339446a25c1d934576e66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Key_Hole_001_metallic
+    second: {fileID: 2800000, guid: cfd6c297b660b274d8ffc13de6ac47b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Key_Hole_001_roughness
+    second: {fileID: 2800000, guid: 2cf51400ebbd898479ef21c5d1930e80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Plate_017_basecolor
+    second: {fileID: 2800000, guid: 16187f5bf33020c4881ab73cf84be866, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Plate_017_emissive
+    second: {fileID: 2800000, guid: 50539af5ea090de44b4f4faf0ba190be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Plate_017_metallic
+    second: {fileID: 2800000, guid: 7cc89fc519d3bca4a99de0ff95776896, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Plate_017_roughness
+    second: {fileID: 2800000, guid: e47e1fb9ea168bb438b17f147ee571af, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

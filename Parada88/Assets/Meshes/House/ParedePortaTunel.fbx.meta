@@ -3,7 +3,27 @@ guid: 8fd21dbb1072d924c930836d5f542e74
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.011
+    second: {fileID: 2100000, guid: db3bc528df77a8942885172113618b6e, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Plate_011_basecolor
+    second: {fileID: 2800000, guid: 1073d564ed6d3b44b85457df657aff51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Plate_011_metallic
+    second: {fileID: 2800000, guid: 001216736348556439401bd94ed72446, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Plate_011_roughness
+    second: {fileID: 2800000, guid: 41a900c8092fae84099def4a9e971366, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
