@@ -6,6 +6,7 @@
         </ui:VisualElement>
         <ui:VisualElement name="RightColumn" style="flex-grow: 2; flex-direction: row; align-items: center; justify-content: space-between; padding-right: 120px; padding-left: 120px;">
             <ui:Button text="Iniciar" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Start" class="button" style="transform-origin: right 120%;" />
+            <ui:Button text="Créditos" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Credits" class="button" style="transform-origin: right 120%;" />
             <ui:Button text="Sair" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Exit" class="button" />
         </ui:VisualElement>
     </ui:VisualElement>
