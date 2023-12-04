@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:ProgressBar value="20" title="Oxigênio" name="oxigenio" style="position: absolute; -unity-background-image-tint-color: rgb(55, 63, 59);" />
+    <ui:VisualElement style="flex-grow: 1; position: absolute; right: 20px; flex-direction: row;">
+        <ui:Label tabindex="-1" text="$" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DinheiroLabel" style="position: relative; right: auto;" />
+        <ui:Label tabindex="-1" text="0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="dinheiro" />
+    </ui:VisualElement>
+</ui:UXML>
