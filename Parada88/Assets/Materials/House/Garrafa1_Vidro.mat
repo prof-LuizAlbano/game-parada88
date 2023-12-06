@@ -12,11 +12,10 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _EMISSION
   - _SPECULAR_SETUP
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
@@ -95,7 +94,7 @@ Material:
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
-    - _Cutoff: 0.5
+    - _Cutoff: 0.599
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
@@ -110,7 +109,7 @@ Material:
     - _Parallax: 0.02
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.8695652
+    - _Smoothness: 0.814
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
@@ -120,10 +119,10 @@ Material:
     - _WorkflowMode: 0
     - _ZWrite: 0
     m_Colors:
-    - _BaseColor: {r: 0, g: 0.43041945, b: 0.15306413, a: 0.7529412}
-    - _Color: {r: 0, g: 0.43041942, b: 0.1530641, a: 0.7529412}
+    - _BaseColor: {r: 0, g: 0.43041912, b: 0.1530638, a: 0.89411765}
+    - _Color: {r: 0, g: 0.4304191, b: 0.15306377, a: 0.89411765}
     - _EmissionColor: {r: 0, g: 0.03299898, b: 0.009263354, a: 3.6}
-    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecColor: {r: 0, g: 0.43137258, b: 0.15294118, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &1091570268274862988
 MonoBehaviour:
