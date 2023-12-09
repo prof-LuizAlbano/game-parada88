@@ -3,7 +3,22 @@ guid: 6f9d0c3f998deb84fb4db50c068f9d68
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: fbbe40a4bc558e141b7c60898a1fcb5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 696266a308c089f4780142959919a4ac, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TCom_Various_EnergyPole_512_albedo
+    second: {fileID: 2800000, guid: 0e4f726566839ca4f9efe208718731c8, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

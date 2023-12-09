@@ -3,7 +3,22 @@ guid: cef5efa4d0890a442ac4c97d65057870
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 647b2a6abbc35e547be10128992696db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 67d79dbc1aa2356479577bd17373d507, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TCom_Brick_CinderblocksPainted2_4K_height
+    second: {fileID: 2800000, guid: 59385f63f97d6954bac6976ef0a1621d, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

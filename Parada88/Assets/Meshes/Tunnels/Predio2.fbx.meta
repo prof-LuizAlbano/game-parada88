@@ -3,7 +3,22 @@ guid: 0dac059c8098b694fa33ebe2fc2702b3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 374b906640b36cd4cac552c538b37fe5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 759ab58b268e9ea4aaf5245107b30945, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: TCom_Rock_CliffVolcanic_2K_albedo
+    second: {fileID: 2800000, guid: 471e1617bddbd7743a72f5b38a4e287e, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,37 @@ guid: 48bbdf3062b85a44fb9e31605bc58c1b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 2618f151421cff245a8c1bfe6e2c51bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 2618f151421cff245a8c1bfe6e2c51bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 76dfa2db60b80d94d945506526208569, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sci-Fi_Wall_014_basecolor
+    second: {fileID: 2800000, guid: 06bf974826a5b7b479e681e470f6f5a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sci-Fi_Wall_014_metallic
+    second: {fileID: 2800000, guid: 88769c7768afc774984b7acad824d96d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Sci-Fi_Wall_014_roughness
+    second: {fileID: 2800000, guid: c4d800c1d45162c4abc2d8b52306275b, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
