@@ -1,5 +1,5 @@
 .button {
-    font-size: 50px;
+    font-size: 30px;
     -unity-font-style: bold;
     background-color: rgb(17, 19, 14);
     border-top-left-radius: 100px;
@@ -10,8 +10,8 @@
     border-bottom-color: rgba(56, 56, 56, 0);
     color: rgb(142, 112, 112);
     margin-right: 20px;
-    padding-right: 50px;
-    padding-left: 51px;
+    padding-right: 30px;
+    padding-left: 30px;
     -unity-font: initial;
     -unity-text-outline-width: 1px;
     -unity-text-outline-color: rgba(144, 28, 28, 0);
