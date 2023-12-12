@@ -8,6 +8,7 @@ public class BarraO2 : MonoBehaviour
 {
     
     [SerializeField] private Slider barraO2;
+    [SerializeField] Transform PlayerCam;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +18,7 @@ public class BarraO2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.LookAt(transform.position + PlayerCam.forward);
     }
 
     public void alterarBarraO2(float atualO2,int totalO2)
