@@ -7,9 +7,14 @@ public class SceneLoader : MonoBehaviour
 {
 	[SerializeField]
 	 public string scenename;
+
+    [SerializeField]
+	 public int timeline = 0;
+ 
 	 
     void Awake()
     {
+        TimelinesManager.currentTimeline = timeline;
         SceneManager.LoadScene(scenename);
     }
 }
