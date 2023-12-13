@@ -12,7 +12,7 @@ public class MainMenuPresenter : MonoBehaviour
 		var root = GetComponent<UIDocument>().rootVisualElement;
 	
 		
-		root.Q<Button>("Start").clicked += () => SceneManager.LoadScene("House");
+		root.Q<Button>("Start").clicked += () => SceneManager.LoadScene("CutScene1");
 		root.Q<Button>("Exit").clicked += () => Application.Quit();
 		
 		 var logo = root.Q<VisualElement>("LogoMove");
