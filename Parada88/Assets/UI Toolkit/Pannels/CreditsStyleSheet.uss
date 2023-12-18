@@ -1,0 +1,10 @@
+.scroll {
+    translate: 0 -400%;
+    transition-property: translate;
+    transition-duration: 10s;
+    transform-origin: top;
+}
+
+.text {
+    margin-top: 100%;
+}
