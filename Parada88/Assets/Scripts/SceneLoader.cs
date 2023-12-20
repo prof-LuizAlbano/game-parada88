@@ -14,7 +14,7 @@ public class SceneLoader : MonoBehaviour
 	 
     void Awake()
     {
-        TimelinesManager.currentTimeline = timeline;
+        TimelinesController.currentTimeline = timeline;
         SceneManager.LoadScene(scenename);
     }
 }
