@@ -25,7 +25,7 @@ public class ThirdPersonController : MonoBehaviour
     [SerializeField] private float jumpForce = 5f;
     [SerializeField] private float maxSpeed = 5f;
 
-    [SerializeField] private float rotationSpeed = 5f;
+    //[SerializeField] private float rotationSpeed = 5f;
 
     private Vector3 forceDirection = Vector3.zero;
 

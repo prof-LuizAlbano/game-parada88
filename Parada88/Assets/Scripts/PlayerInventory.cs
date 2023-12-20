@@ -15,13 +15,16 @@ using UnityEngine.Events;
 
 public class PlayerInventory : MonoBehaviour
 {
-    public int diamondsCollected { get; private set; }
+    [SerializeField] private float minMoneyColleted = 100f;
+    [SerializeField] private float maxMoneyColleted = 350f;
 
-    public UnityEvent<PlayerInventory> OnDiamondCollected;
+    public float moneyAmount { get; private set; }
 
-    public void DiamondCollected()
+    public UnityEvent<PlayerInventory> OnMoneyCollected;
+
+    public void MoneyCollected()
     {
-        diamondsCollected++;
-        OnDiamondCollected.Invoke(this);
+        moneyAmount += Random.Range(minMoneyColleted, maxMoneyColleted);
+        OnMoneyCollected.Invoke(this);
     }
 }

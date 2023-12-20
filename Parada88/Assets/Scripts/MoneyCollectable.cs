@@ -12,21 +12,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Diamond : MonoBehaviour
+public class MoneyCollectable : MonoBehaviour
 {
-    /// <summary>
-    /// OnTriggerEnter is called when the Collider other enters the trigger.
-    /// </summary>
-    /// <param name="other">The other Collider involved in this collision.</param>
+    [SerializeField] private int minInterval = 5;
+    [SerializeField] private int maxInterval = 5;
+    
     void OnTriggerEnter(Collider other)
     {
         PlayerInventory playerInventory = other.GetComponent<PlayerInventory>();
 
         if( playerInventory != null )
         {
-            playerInventory.DiamondCollected();
+            playerInventory.MoneyCollected();
             gameObject.SetActive(false);
-            Invoke("ShowAgain", 5);
+            Invoke("ShowAgain", Random.Range(minInterval, maxInterval));
         }
     }
 

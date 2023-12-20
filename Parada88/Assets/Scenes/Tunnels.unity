@@ -11793,6 +11793,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 769615424160427207, guid: 224ad3d45462b6a4b97143472c5cebf8,
         type: 3}
+      propertyPath: followTarget
+      value: 
+      objectReference: {fileID: 702063559}
+    - target: {fileID: 769615424160427207, guid: 224ad3d45462b6a4b97143472c5cebf8,
+        type: 3}
       propertyPath: minVerticalAngle
       value: -15
       objectReference: {fileID: 0}
@@ -11800,6 +11805,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2590752825003529434, guid: 224ad3d45462b6a4b97143472c5cebf8,
+        type: 3}
+      propertyPath: maxSpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2590752825003529434, guid: 224ad3d45462b6a4b97143472c5cebf8,
+        type: 3}
+      propertyPath: jumpForce
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2590752825003529434, guid: 224ad3d45462b6a4b97143472c5cebf8,
         type: 3}
@@ -12870,6 +12885,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barraO2: {fileID: 2121142759}
+--- !u!4 &702063559 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7579936856577575576, guid: 224ad3d45462b6a4b97143472c5cebf8,
+    type: 3}
+  m_PrefabInstance: {fileID: 659514825}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &706521499
 PrefabInstance:
   m_ObjectHideFlags: 0

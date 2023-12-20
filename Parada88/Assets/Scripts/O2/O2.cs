@@ -29,7 +29,7 @@ public class O2 : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Foe")){
+        if (collision.gameObject.CompareTag("Enemy")){
             atualO2 = atualO2 - 100;
 
         } else if (collision.gameObject.CompareTag("O2")){
