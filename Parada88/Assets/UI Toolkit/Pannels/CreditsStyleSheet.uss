@@ -1,8 +1,9 @@
 .scroll {
-    translate: 0 -400%;
+    translate: 0 -290%;
     transition-property: translate;
-    transition-duration: 10s;
+    transition-duration: 12s;
     transform-origin: top;
+    transition-timing-function: linear;
 }
 
 .text {

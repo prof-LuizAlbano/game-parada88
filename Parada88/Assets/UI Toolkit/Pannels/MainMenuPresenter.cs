@@ -36,24 +36,18 @@ public class MainMenuPresenter : MonoBehaviour
 	
 	void setupCreditsScreen(){
 		
-		var creditsLabels = root.Q<VisualElement>("CreditsLabels");
-		var creditsNames = root.Q<VisualElement>("CreditsNames");
-        creditsLabels.RegisterCallback<TransitionEndEvent>(evt => {
-			creditsLabels.RemoveFromClassList("scroll");
+		var creditsContainer = root.Q<VisualElement>("CreditsContainer");
+        creditsContainer.RegisterCallback<TransitionEndEvent>(evt => {
+			creditsContainer.RemoveFromClassList("scroll");
 			creditsScreen.style.display = DisplayStyle.None;
 			mainMenuScreen.style.display = DisplayStyle.Flex;
-		});
-		
-		creditsNames.RegisterCallback<TransitionEndEvent>(evt => {
-			creditsNames.RemoveFromClassList("scroll");
 		});
 		
 		root.Q<Button>("Credits").clicked += () => {
 			mainMenuScreen.style.display = DisplayStyle.None;
 			creditsScreen.style.display = DisplayStyle.Flex;
 			
-			root.schedule.Execute(() => { creditsLabels.AddToClassList("scroll");}).StartingIn(200);
-			root.schedule.Execute(() => { creditsNames.AddToClassList("scroll");}).StartingIn(200);
+			root.schedule.Execute(() => { creditsContainer.AddToClassList("scroll");}).StartingIn(200);
 		};			
 		
 		
