@@ -26,4 +26,15 @@ public class O2 : MonoBehaviour
         }
         barraO2.alterarBarraO2(atualO2, totalO2);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Foe")){
+            atualO2 = atualO2 - 100;
+
+        } else if (collision.gameObject.CompareTag("O2")){
+            atualO2 = atualO2 + 100;
+        }
+
+    }
 }
