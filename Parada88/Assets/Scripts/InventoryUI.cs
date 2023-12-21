@@ -15,15 +15,17 @@ using TMPro;
 
 public class InventoryUI : MonoBehaviour
 {
-    //private TextMeshProUGUI diamondsText;
+    private TextMeshProUGUI moneyText;
+
     // Start is called before the first frame update
     void Start()
     {
-        //diamondsText = GetComponent<TextMeshProUGUI>();
+        moneyText = GetComponent<TextMeshProUGUI>();
     }
 
     public void UpdateDiamondText(PlayerInventory player)
     {
-        //diamondsText.text = player.diamondsCollected.ToString();
+        moneyText.text = player.moneyAmount.ToString("C");
+        print(player.moneyAmount.ToString("C"));
     }
 }
