@@ -1,0 +1,11 @@
+.scroll {
+    translate: 0 -290%;
+    transition-property: translate;
+    transition-duration: 12s;
+    transform-origin: top;
+    transition-timing-function: linear;
+}
+
+.text {
+    margin-top: 100%;
+}
